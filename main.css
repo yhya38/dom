@@ -87,6 +87,8 @@ html {
     display: flex;
     justify-content: center;
     align-items: center;
+    background: url(bg-intro-desktop.png);
+    background-color: hsl(0, 100%, 74%);
   }
   .left {
     width: 30%;
