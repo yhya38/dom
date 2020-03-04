@@ -1,0 +1,106 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+html {
+  font-family: "Poppins", sans-serif;
+}
+
+.main {
+  background: url(bg-intro-desktop.png);
+  background-color: hsl(0, 100%, 74%);
+  padding: 20px;
+}
+.left {
+  margin-top: 60px;
+  text-align: center;
+  color: white;
+}
+.left p {
+  font-size: 13px;
+  margin-top: 20px;
+}
+
+.right {
+  margin-top: 40px;
+  text-align: center;
+}
+.first {
+  height: 4rem;
+  margin-bottom: 20px;
+}
+.first button {
+  padding: 0px 50px 0px 50px;
+  width: 100%;
+  height: 100%;
+  background-color: hsl(248, 32%, 49%);
+  border: none;
+  color: white;
+  border-radius: 8px;
+  font-weight: bold;
+}
+
+.first span {
+  font-weight: lighter;
+  font-size: 12px;
+}
+
+.second {
+  background-color: white;
+  padding: 20px 20px;
+  border-radius: 5px;
+}
+.second input {
+  width: 100%;
+  font-weight: bold;
+  height: 2.5rem;
+  border: 1px solid gray;
+  border-radius: 3px;
+
+  padding: 10px;
+  margin-bottom: 15px;
+  color: hsl(246, 25%, 77%);
+}
+.second button {
+  width: 100%;
+  border-radius: 5px;
+  color: white;
+  height: 2.5rem;
+  background-color: hsl(154, 59%, 51%);
+  border: none;
+  font-weight: bold;
+}
+.second h6 {
+  margin: 10px;
+  color: hsl(246, 25%, 77%);
+  font-weight: lighter;
+}
+.second span {
+  color: hsl(0, 100%, 74%);
+  font-weight: bold;
+}
+
+@media screen and (min-width: 1200px) {
+  .main {
+    height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+  }
+  .left {
+    width: 30%;
+    text-align: left;
+    margin-right: 40px;
+  }
+  .left h2 {
+    width: 90%;
+    font-size: 2.5rem;
+  }
+  .right {
+    width: 30%;
+  }
+  .first {
+    height: 3.5rem;
+  }
+}
