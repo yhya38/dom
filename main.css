@@ -12,6 +12,7 @@ html {
   float: right;
   margin-top: -10px;
   margin-bottom: 5px;
+  font-weight: bold;
 }
 .main {
   background: url(bg-intro-desktop.png);
