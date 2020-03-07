@@ -6,7 +6,13 @@
 html {
   font-family: "Poppins", sans-serif;
 }
-
+.cc {
+  font-size: 10px;
+  color:  hsl(0, 100%, 74%);
+  float: right;
+  margin-top: -10px;
+  margin-bottom: 5px;
+}
 .main {
   background: url(bg-intro-desktop.png);
   background-color: hsl(0, 100%, 74%);

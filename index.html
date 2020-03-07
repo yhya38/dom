@@ -29,11 +29,20 @@
         </div>
         <div class="second">
           <form action="">
-            <input type="text" placeholder="First Name" />
-            <input type="text" placeholder="Last Name" />
-            <input type="email" placeholder="Email Address" />
-            <input type="password" placeholder="Password" />
-            <button>CLAIM YOUR FREE TRIAL</button>
+            <input
+              type="text"
+              placeholder="First Name"
+              id="first_name"
+              value=""
+            />
+            <p id="message" class="cc"></p>
+            <input type="text" placeholder="Last Name" id="last_name" value=""/>
+            <p id="message2" class="cc"></p>
+            <input type="email" placeholder="Email Address" id="email" value=""/>
+            <p id="message3" class="cc"></p>
+            <input type="password" placeholder="Password" id="pass" value=""/>
+            <p id="message4" class="cc"></p>
+            <button onclick="return myFun()">CLAIM YOUR FREE TRIAL</button>
           </form>
           <h6>
             By clicking the button, you are agreeing to our
